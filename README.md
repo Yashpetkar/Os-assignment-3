@@ -175,3 +175,80 @@ Students learn:
 
 
 ```
+**shell script** that prints a student's **name and roll number**.
+
+Students can create it using their roll number as the file name.
+
+---
+
+## ✅ Simple Shell Script
+
+### Step 1: Create file
+
+Example roll number: **CSE106**
+
+```bash
+nano CSE106.sh
+```
+
+---
+
+### Step 2: Write script
+
+```bash
+#!/bin/bash
+
+echo "Student Name: Rahul Sharma"
+echo "Roll Number: CSE106"
+```
+
+(Students replace with their own details.)
+
+---
+
+### Step 3: Save file
+
+In nano:
+
+```
+CTRL + X
+Press Y
+Press Enter
+```
+
+---
+
+### Step 4: Give permission
+
+```bash
+chmod +x CSE106.sh
+```
+
+---
+
+### Step 5: Run script
+
+```bash
+./CSE106.sh
+```
+
+Output example:
+
+```
+Student Name: Rahul Sharma
+Roll Number: CSE106
+```
+
+---
+
+## ✅ Classroom Version (One-line Script)
+
+Students can also write:
+
+```bash
+#!/bin/bash
+echo "Name: Rahul | Roll: CSE106"
+```
+
+---
+
