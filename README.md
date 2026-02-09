@@ -1,5 +1,4 @@
 # Os-assignment-3
-```
 # Sequence Generator Command-Line Tool in C
 
 ## 📌 Objective
@@ -243,6 +242,4 @@ Students can also write:
 #!/bin/bash
 echo "Name: Rahul | Roll: CSE106"
 ```
-
----
 
