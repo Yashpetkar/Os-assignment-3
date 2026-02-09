@@ -127,13 +127,7 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
-    if (step > 0) {
-        for (int i = start; i <= end; i += step)
-            printf("%d ", i);
-    } else {
-        for (int i = start; i >= end; i += step)
-            printf("%d ", i);
-    }
+    
 
     printf("\n");
     return 0;
